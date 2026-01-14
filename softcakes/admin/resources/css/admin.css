@@ -1,0 +1,39 @@
+/* Softcakes Admin Theme */
+:root {
+  --primary-color: #3B82F6;
+  --secondary-color: #2563EB;
+  --sidebar-bg: #1F2937;
+  --border-radius: 8px;
+}
+
+.navbar-pf {
+  background-color: var(--primary-color);
+}
+
+.navbar-pf .navbar-brand {
+  color: white;
+  font-weight: 700;
+}
+
+.nav-category .nav-item-iconic .list-group-item:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: var(--border-radius);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
